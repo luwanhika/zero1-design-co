@@ -15,12 +15,38 @@
     margin-left: 120px;
 }
 
+.servicos .servico-content {
+    display: flex;
+    margin-top: 138px;
+}
+
 .servicos .plano-frst {
     width: 340px;
     height: 800px;
+    margin-right: 32px;
     background: #FFF;
     border-radius: 10px;
     border: 2px solid rgba(237, 243, 248, 1);
+}
+
+.melhor .melhor-custo-benef {
+    width: 340px;
+    height: 45px;
+    background: #D0FBDC;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid rgba(162, 246, 185, 1);
+}
+
+.melhor .melhor-custo-benef > p{
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(16, 163, 114, 1);
+    font-family: 'Poppins', sans-serif;
 }
 
 .plano-frst .plano-cabec {
@@ -29,7 +55,7 @@
     margin: 50px;
 }
 
-.plano-cabec .plano-1-text > h2 {
+.plano-cabec .plano-1-text h2 {
     margin-bottom: 8px;
     font-size: 25px;
     font-weight: 600;
@@ -46,11 +72,24 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.plano-cabec > img {
+.plano-cabec > .icone-plano1 {
     display: block;
     width: 16px;
     height: 18px;
 }
+
+.plano-cabec > .icone-plano2 {
+    display: block;
+    width: 27px;
+    height: 29px;
+}
+
+.plano-cabec > .icone-plano3 {
+    display: block;
+    width: 37px;
+    height: 40px;
+}
+
 
 .servicos .plano-foto {
     width: 100%;
@@ -135,4 +174,51 @@
     font-weight: normal;
     color: rgba(87, 98, 117, 1);
     font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.consultoria {
+    margin-top: 267px;
+}
+
+.consultoria-paragraf {
+    display: block;
+    width: 625px;
+    margin: 0 auto;
+}
+
+.consultoria-descricao {
+    margin-bottom: 60px;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: #041C43;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.consultoria-btn {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.consultoria-btn button[type="submit"] {
+    margin-bottom: 90px;
+    width: 252px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background: #041C43;
+    box-shadow: 10px 15px 20px rgba(4, 28, 67, 0.2);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
