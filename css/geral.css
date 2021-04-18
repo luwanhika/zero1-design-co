@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+header {
+    top: 0;
+    left: 0;
+    z-index: 999;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}

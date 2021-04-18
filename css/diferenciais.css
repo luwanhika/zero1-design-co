@@ -1,0 +1,74 @@
+section.diferenciais {
+    background: #E5E5E5;
+}
+
+.tipos {
+    max-width: 220px;
+    margin-left: 100px;
+}
+
+.all-container h2 {
+    margin-top: 26px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all-container p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #576275;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-tipos {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-tipos button[type="submit"] {
+    margin-bottom: 90px;
+    width: 252px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background: #17CF81;
+    box-shadow: 10px 15px 20px rgba(26, 230, 144, 0.2);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.container-paragraf {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.difere-desc {
+    margin-bottom: 60px;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: #041C43;
+    font-family: 'Nunito Sans', sans-serif;
+}

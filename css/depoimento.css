@@ -1,0 +1,50 @@
+.depoimento {
+    background: #e5e5e5;
+}
+
+.container-depoimento {
+    max-width: 1098px;
+    background: white;
+    margin: 0 auto;
+}
+
+.container-depoimento h1 {
+    display: inline-block;
+    margin: 100px 0 0 300px;
+    margin-bottom: 76px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #041C43;
+    font-family: 'Poppins', sans-serif;
+}
+
+.depoimento-1-linha {
+    display: flex;
+    max-width: 886px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+    justify-content: space-between;
+}
+
+.depoimento-2-linha {
+    display: flex;
+    max-width: 886px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container-depoimento .depoimento-item {
+    width: 183px;
+    margin-bottom: 139px;
+}
+
+.depoimento-item h2 {
+    margin-top: 32px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    color: #041C43;
+    font-family: 'Poppins', sans-serif;
+}

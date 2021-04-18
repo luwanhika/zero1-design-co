@@ -1,0 +1,118 @@
+.funcionalidades {
+    background: #e5e5e5;
+}
+
+.container-white {
+    max-width: 1098px;
+    margin: 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: white;
+}
+
+.function-text {
+    display: inline-block;
+    margin-top: 150px;
+    width: 631px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    align-items: center;
+    color: #041c43;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-mosaico {
+    margin-top: 125px;
+}
+
+.funcionalidades .item-1-mosaico {
+    position: absolute;
+    width: 555px;
+    height: 409px;
+    border-radius: 10px;
+    left: 50px;
+    background: #041c43;
+}
+
+.funcionalidades .item-2-mosaico {
+    width: 555px;
+    height: 409px;
+    margin-left: 480px;
+}
+
+.icon-mosaico {
+    width: 312px;
+    margin: 0 auto;
+    margin-top: 84px;
+}
+
+.icon-mosaico img {
+    margin-top: 80px;
+}
+
+.icon-mosaico h2 {
+    margin-top: 26px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #041c43;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon-mosaico p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #576275;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.funcionalidades .item-3-mosaico {
+    width: 555px;
+    height: 409px;
+    margin-left: 70px;
+}
+
+.funcionalidades .item-4-mosaico {
+    position: absolute;
+    width: 555px;
+    height: 409px;
+    top: 2878px;
+    border-radius: 10px;
+    right: 40px;
+    background: #041c43;
+}
+
+
+.funcionalidades .item-3-mosaico {
+    width: 555px;
+    height: 409px;
+    margin-left: 70px;
+}
+
+.funcionalidades .item-5-mosaico {
+    position: absolute;
+    width: 555px;
+    height: 409px;
+    top: 3948px;
+    border-radius: 10px;
+    right: 40px;
+    background: #041c43;
+}
+
+.container-white::after {
+    content: '';
+    display: inline-block;
+    width: 1096px;
+    height: 0;
+    margin-top: 150px;
+    border: 2px solid #EDF3F8;
+}
+
