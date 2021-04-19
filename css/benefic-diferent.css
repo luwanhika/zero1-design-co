@@ -55,3 +55,13 @@ section.benefic-diferent {
 .custos {
     margin-bottom: 56px;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .facilidades {
+        flex-direction: column;
+        text-align: center;
+    }
+}
