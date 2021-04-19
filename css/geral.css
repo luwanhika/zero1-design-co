@@ -6,11 +6,12 @@
 
 html, body {
     height: 100%;
+    font-size: 62.5%;
     -webkit-font-smoothing: antialiased;
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     max-width: 1216px;
     margin: 0 auto;
 }

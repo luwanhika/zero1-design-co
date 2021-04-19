@@ -3,18 +3,22 @@
 }
 
 .container-depoimento {
+    width: 90%;
     max-width: 1098px;
     background: white;
     margin: 0 auto;
 }
 
-.container-depoimento h1 {
-    display: inline-block;
-    margin: 100px 0 0 300px;
+.conteinner-text-depoiment {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
     margin-bottom: 76px;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 2.5rem;
     line-height: 40px;
     color: #041C43;
     font-family: 'Poppins', sans-serif;
@@ -22,6 +26,7 @@
 
 .depoimento-1-linha {
     display: flex;
+    width: 90%;
     max-width: 886px;
     margin: 0 auto;
     margin-bottom: 53px;
@@ -30,6 +35,7 @@
 
 .depoimento-2-linha {
     display: flex;
+    width: 90%;
     max-width: 886px;
     margin: 0 auto;
     justify-content: space-between;
@@ -43,7 +49,7 @@
 .depoimento-item h2 {
     margin-top: 32px;
     font-style: normal;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight: 500;
     color: #041C43;
     font-family: 'Poppins', sans-serif;

@@ -3,6 +3,7 @@
 }
 
 .container-white {
+    width: 90%;
     max-width: 1098px;
     margin: 0 auto;
     border-top-left-radius: 20px;
@@ -18,10 +19,11 @@
 
 .function-text {
     margin-top: 150px;
-    width: 631px;
+    width: 90%;
+    max-width: 631px;
     font-weight: 600;
     font-style: normal;
-    font-size: 35px;
+    font-size: 3.5rem;
     line-height: 45px;
     color: #041c43;
     font-family: 'Poppins', sans-serif;
@@ -61,7 +63,7 @@
     margin-bottom: 16px;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 2.5rem;
     line-height: 40px;
     color: #041c43;
     font-family: 'Poppins', sans-serif;
@@ -70,7 +72,7 @@
 .icon-mosaico p {
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 2.0rem;
     line-height: 30px;
     color: #576275;
     font-family: 'Nunito Sans', sans-serif;
@@ -78,7 +80,8 @@
 
 
 .funcionalidades .item-3-mosaico {
-    width: 555px;
+    width: 90%;
+    max-width: 555px;
     height: 409px;
     margin-left: 70px;
 }
@@ -113,7 +116,7 @@
 .container-white::after {
     content: '';
     display: inline-block;
-    width: 1096px;
+    width: 1092px;
     height: 0;
     margin-top: 150px;
     border: 2px solid #EDF3F8;

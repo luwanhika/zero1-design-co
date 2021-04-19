@@ -4,13 +4,14 @@ section.benefic-diferent {
 }
 
 .facilidades {
+    width: 90%;
     max-width: 395px;
     margin-right: 202px;
 }
 
 .facilidades h1 {
     margin-bottom: 30px;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 600;
     font-style: normal;
     line-height: 40px;
@@ -21,7 +22,7 @@ section.benefic-diferent {
 .facilidades p {
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 2.0rem;
     line-height: 30px;
     color: #576275;
     font-family: 'Nunito Sans', sans-serif;
@@ -33,6 +34,7 @@ section.benefic-diferent {
 
 .benefic-diferent h2 {
     margin-left: 28.68px;
+    width: 90%;
     max-width: 170px;
     font-size: 20px;
     font-weight: 500;

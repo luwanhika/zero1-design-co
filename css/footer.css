@@ -13,7 +13,7 @@ footer .footer-direitos {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 1.6rem;
     font-weight: normal;
     font-style: normal;
     color: #576275;
@@ -25,7 +25,7 @@ footer .footer-termos {
     display: flex;
     width: 300px;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 1.6rem;
     font-weight: normal;
     font-style: normal;
     color: #041C43;

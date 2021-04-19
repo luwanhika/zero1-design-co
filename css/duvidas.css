@@ -1,4 +1,5 @@
 .duvidas-content {
+    width: 90%;
     max-width: 1072px;
     height: 1082px;
     margin: 0 auto;
@@ -12,7 +13,7 @@
     align-items: center;
     font-weight: 600;
     font-style: normal;
-    font-size: 35px;
+    font-size: 3.5rem;
     line-height: 40px;
     color: #041c43;
     font-family: 'Poppins', sans-serif;
@@ -31,14 +32,14 @@
     display: inline-block;
     padding: 0 10px;
     background: #FFF;
-    box-shadow: 8px 15px 5px;
-    -webkit-box-shadow: 0px 15px 45;
-    -moz-box-shadow: 0px 15px 45px;
+    box-shadow: 8px 15px 40px;
+    -webkit-box-shadow: 0px 15px 40px;
+    -moz-box-shadow: 0px 15px 40px;
     border: 2px solid #CCC;
     border-radius: 8px;
     font-weight: 600;
     font-style: normal;
-    font-size: 20px;
+    font-size: 2.0rem;
     line-height: 40px;
     color: #576275;
     box-sizing: border-box;
