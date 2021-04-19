@@ -31,7 +31,27 @@
     display: flex;
 }
 
-.btn-login button[type="submit"] {
+.button-menu > a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 16px;
+    width: 95px;
+    height: 45px;
+    background: white;
+    color: #041c43;
+    border: 1px solid #041c43;
+    border-radius: 7px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*.btn-login button[type="submit"] {
     display: block;
     margin-right: 16px;
     width: 95px;
@@ -45,7 +65,7 @@
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-}
+}*/
 
 .btn-solicitar button[type="submit"] {
     display: block;

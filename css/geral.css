@@ -6,6 +6,7 @@
 
 html, body {
     height: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -23,4 +24,16 @@ header {
 
 .flex {
     display: flex;
+}
+
+
+
+@media (max-width: 700px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container .menu .container-menu {
+        grid-column: 1;
+    }
 }

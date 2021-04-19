@@ -10,16 +10,19 @@
     background: white;
 }
 
+.function-text-titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .function-text {
-    display: inline-block;
     margin-top: 150px;
     width: 631px;
     font-weight: 600;
     font-style: normal;
     font-size: 35px;
     line-height: 45px;
-    text-align: center;
-    align-items: center;
     color: #041c43;
     font-family: 'Poppins', sans-serif;
 }
