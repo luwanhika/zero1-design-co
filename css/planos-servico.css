@@ -1,4 +1,5 @@
 .servicos {
+    margin: 0 auto;
     background-color: #e5e5e5;
 }
 
@@ -11,6 +12,8 @@
 }
 
 .plano-escolha {
+
+    border: 1px solid red;
     margin-top: 90px;
     margin-left: 120px;
 }
